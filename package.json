@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "This is a quick tool to generate the color shading for a given base color. It is developed in such a way that the output generated will match TailwindCSS color variables.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "shade": "node index.js --baseColor='#434343' --baseColorName='black'",
+    "shade-variation": "node index.js --baseColor='#434343' --baseColorName='black' --variationFactor=3.85"
+  },
   "keywords": [
     "color",
     "shading",
