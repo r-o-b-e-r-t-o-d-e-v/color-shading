@@ -4,7 +4,15 @@
   "description": "This is a quick tool to generate the color shading for a given base color. It is developed in such a way that the output generated will match TailwindCSS color variables.",
   "main": "index.js",
   "scripts": {},
-  "keywords": ["color", "shading", "tool", "script"],
+  "keywords": [
+    "color",
+    "shading",
+    "tool",
+    "script"
+  ],
   "author": "robertomdev",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "tinycolor2": "^1.6.0"
+  }
 }
