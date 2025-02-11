@@ -1,0 +1,26 @@
+[
+  {
+    "baseColor": "#BF2A37",
+    "baseColorName": "red"
+  },
+  {
+    "baseColor": "#253C50",
+    "baseColorName": "blue-dark"
+  },
+  {
+    "baseColor": "#F8E496",
+    "baseColorName": "yellow"
+  },
+  {
+    "baseColor": "#EF84AA",
+    "baseColorName": "pink"
+  },
+  {
+    "baseColor": "#EBEBEB",
+    "baseColorName": "white"
+  },
+  {
+    "baseColor": "#434343",
+    "baseColorName": "black"
+  }
+]

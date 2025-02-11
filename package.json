@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "shade": "node index.js --baseColor='#434343' --baseColorName='black'",
-    "shade-variation": "node index.js --baseColor='#434343' --baseColorName='black' --variationFactor=3.85"
+    "shade-variation": "node index.js --baseColor='#434343' --baseColorName='black' --variationFactor=3.85",
+    "shade-json": "node index-file.js --jsonFile='colors.json'",
+    "shade-json-variation": "node index-file.js --jsonFile='colors.json' --variationFactor=5"
   },
   "keywords": [
     "color",
