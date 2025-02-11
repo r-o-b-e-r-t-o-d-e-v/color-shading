@@ -43,7 +43,7 @@ fs.readFile(jsonFile, 'utf-8', (err, fileData) => {
 
         const result = generateColorShade(baseColor, variationFactor)
             .map((value, i) =>
-                `--color-brand-${baseColorName}-${i * 100 + 100}: ${value};`)
+                `--color-${baseColorName}-${i * 100 + 100}: ${value};`)
             .join('\n');
 
         console.log(result);
